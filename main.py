@@ -18,7 +18,7 @@ def guide_page():
 
 @app.route('/download_file')
 def download_file():
-    path = 'static/Witch_of_images_WINDOWS_1.0_SETUP_RU.exe'
+    path = 'static/Witch_of_images_setup.exe'
     return send_file(path, as_attachment=True)
 
 
